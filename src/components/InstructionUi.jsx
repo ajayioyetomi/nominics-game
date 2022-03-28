@@ -2,7 +2,11 @@ import React from 'react'
 
 const Instruction = () => {
   return (
-    <div>Instruction</div>
+    <React.Fragment>
+      <section>
+        
+      </section>
+    </React.Fragment>
   )
 }
 

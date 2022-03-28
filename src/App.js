@@ -7,8 +7,8 @@ function App() {
   return (
     <React.Fragment>
       <section className='game-section'>
-        <GameUi />
         <InstructionUi />
+        <GameUi />
 
       </section>
 
