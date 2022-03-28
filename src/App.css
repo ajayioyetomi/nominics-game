@@ -39,11 +39,50 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
 .game-section > section:nth-child(2) > div:nth-child(2) > div:nth-child(1){
-    width:400px;
+    width: 80%;
+    text-align: right;
+    color:#fff;
+    padding:10px 0;
+
+}
+.game-section > section:nth-child(2) > div:nth-child(2) > div:nth-child(2){
+    width:80%;
     height:80px;
     background-color: rgba(255,255,255,0.8);
     border:1px solid grey;
-    border-radius: 3px;
+    border-radius: 10px;
+    display: flex;
+    gap:5px;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 10px;
+}
+.game-section > section:nth-child(2) > div:nth-child(2) >div:nth-child(3){
+    width:80%;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.btn{
+    font-weight:bold;
+    min-width:calc(25% - 7.5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding:10px 0;
+    border:none;
+    border-radius: 20px;
+}
+.active-btn{
+    background-color: #fff;
+    color:grey; 
+}
+.in-active-btn{
+    background-color:#f2f2f2;
 }
