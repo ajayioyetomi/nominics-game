@@ -13,7 +13,7 @@ body{
 .game-section > section{
     width:50% !important;
     height:100%;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 .game-section > section:nth-child(2){
