@@ -74,8 +74,7 @@ const GameUi = () => {
     <React.Fragment>
         <GameContext.Provider value={
             {sentenceList,setSentenceList,sentenceIndex,
-            setSentenceIndex,reset,setReset,activePhrase,setActivePhrase,
-            activePhrase,newSentence,setNewSentence
+            setSentenceIndex,reset,setReset,activePhrase,setActivePhrase,newSentence,setNewSentence
             }}>
             <section>
                 <div>
